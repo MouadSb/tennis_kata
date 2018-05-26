@@ -2,20 +2,12 @@ package models;
 
 import interfaces.SetService;
 
-import java.util.Optional;
+public class Set extends Duel implements SetService {
 
-public class Set implements SetService {
-
-    private final Player playerOne;
-    private final Player playerTwo;
-    private Player winner;
     private boolean tieBreak;
-    private boolean haveWinner = false;
-
 
     public Set(Player playerOne, Player playerTwo) {
-        this.playerOne = playerOne;
-        this.playerTwo = playerTwo;
+        super(playerOne,playerTwo);
     }
 
     public static Set initSet(String namePlayerOne, String namePlayerTwo){
@@ -34,14 +26,13 @@ public class Set implements SetService {
             if(tieBreak) return tieRule(this.getPlayerOne(),this.getPlayerTwo());
 
             if (this.getPlayerOne().getScoreSet() == 5 && this.getPlayerTwo().getScoreSet() == 5) {
-               System.out.println("----");
                tieBreak = true;
 
             }else if (winRuleOne(this.getPlayerOne(), this.getPlayerTwo())) {
 
                 this.getPlayerOne().winSet();
-                haveWinner = true;
-                this.winner = this.getPlayerOne();
+                setHaveWinner(true);
+                this.setWinner(this.getPlayerOne());
 
                 return false;
             }
@@ -52,12 +43,11 @@ public class Set implements SetService {
             if(tieBreak) return tieRule(this.getPlayerTwo(),this.getPlayerOne());
 
             if (this.getPlayerTwo().getScoreSet() == 5 && this.getPlayerOne().getScoreSet() == 5) {
-                System.out.println("----***");
                 tieBreak = true;
             }else if (winRuleOne(this.getPlayerTwo(), this.getPlayerOne())) {
                 this.getPlayerTwo().winSet();
-                haveWinner = true;
-                this.winner = this.getPlayerTwo();
+                setHaveWinner(true);
+                this.setWinner(this.getPlayerTwo());
                 return false;
             }
             return  this.getPlayerTwo().winSet();
@@ -73,36 +63,16 @@ public class Set implements SetService {
     private boolean tieRule(Player playerOne,
                                         Player playerTwo){
 
-        System.out.println("here");
         if(playerOne.getScoreSet() == playerTwo.getScoreSet()+1){
             playerOne.winSet();
-            this.winner = playerOne;
-            this.haveWinner = true;
+            this.setWinner(playerOne);
+            this.setHaveWinner(true);
             return false;
         }
 
         return playerOne.scoreTie();
     }
 
-    @Override
-    public Player getPlayerOne() {
-        return this.playerOne;
-    }
-
-    @Override
-    public Player getPlayerTwo() {
-        return this.playerTwo;
-    }
-
-    @Override
-    public Optional<Player> getWinner() {
-        if(this.winner == null) return Optional.empty();
-        return Optional.of(this.winner);
-    }
-
-    public boolean isHaveWinner() {
-        return haveWinner;
-    }
 
     @Override
     public String getCurrentScore() {

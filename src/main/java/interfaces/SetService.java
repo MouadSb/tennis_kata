@@ -1,15 +1,8 @@
 package interfaces;
 
-import models.Player;
+public interface SetService extends DuelService{
 
-import java.util.Optional;
-
-public interface SetService {
     boolean playerWinSet(int index);
-    Player getPlayerOne();
-    Player getPlayerTwo();
-    Optional<Player> getWinner();
     boolean isHaveWinner();
-    String getCurrentScore();
 
 }

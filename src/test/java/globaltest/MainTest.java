@@ -2,17 +2,13 @@ package globaltest;
 
 import interfaces.GameService;
 import interfaces.SetService;
-import junitparams.JUnitParamsRunner;
-import junitparams.Parameters;
 import models.Game;
 import models.Player;
 import models.Set;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import static org.junit.Assert.*;
 
-@RunWith(JUnitParamsRunner.class)
 public class MainTest {
 
     private GameService gameService;

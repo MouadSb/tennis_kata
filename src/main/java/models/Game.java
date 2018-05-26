@@ -1,19 +1,13 @@
 package models;
 
 import interfaces.GameService;
-import java.util.Optional;
 
-public class Game implements GameService {
+public class Game extends Duel implements GameService {
 
-    private final Player playerOne;
-    private final Player playerTwo;
-    private Player winner;
     private static final int MAX_SCORE = 40;
-    private boolean haveWinner = false;
 
     public Game(Player playerOne, Player playerTwo) {
-        this.playerOne = playerOne;
-        this.playerTwo = playerTwo;
+       super(playerOne,playerTwo);
     }
 
     public static Game initGame(String namePlayerOne, String namePlayerTwo){
@@ -25,7 +19,7 @@ public class Game implements GameService {
 
     public boolean playerScore(int index){
 
-        if(haveWinner) return false;
+        if(isHaveWinner()) return false;
 
         if(index == 0) {
             if (this.getPlayerTwo().isHasAdvantage()) {
@@ -41,7 +35,7 @@ public class Game implements GameService {
 
             if(this.getPlayerOne().getPlayerScore() == MAX_SCORE || this.getPlayerOne().isHasAdvantage()){
                 setWinner(this.getPlayerOne());
-                this.haveWinner = true;
+                this.setHaveWinner(true);
                 this.getPlayerOne().winSet();
             }
 
@@ -62,32 +56,12 @@ public class Game implements GameService {
 
             if(this.getPlayerTwo().getPlayerScore() == MAX_SCORE || this.getPlayerTwo().isHasAdvantage()){
                 setWinner(this.getPlayerTwo());
-                this.haveWinner = true;
+                this.setHaveWinner(true);
                 this.getPlayerTwo().winSet();
             }
             return this.getPlayerTwo().winAPoint();
         }
     }
-
-
-    public Player getPlayerOne() {
-        return playerOne;
-    }
-
-    public Player getPlayerTwo() {
-        return playerTwo;
-    }
-
-    public Optional<Player> getWinner() {
-        if(winner == null) return Optional.empty();
-        return Optional.of(winner);
-    }
-
-
-    private void setWinner(Player winner) {
-        this.winner = winner;
-    }
-
 
     public boolean scoreIsDeuce() {
         return (!this.getPlayerOne().isHasAdvantage() && !this.getPlayerTwo().isHasAdvantage()) &&
@@ -101,13 +75,13 @@ public class Game implements GameService {
             return this.getPlayerOne().getPlayerName()+ " : DEUCE - DEUCE : " + this.getPlayerTwo().getPlayerName();
         }
 
-        if(playerOne.isHasAdvantage()){
+        if(super.getPlayerOne().isHasAdvantage()){
             return this.getPlayerOne().getPlayerName()+ " : ADVANTAGE " +" - "+ this.getPlayerTwo().getPlayerScore()
                     +" : "+ this.getPlayerTwo().getPlayerName();
 
         }
 
-        if(playerTwo.isHasAdvantage()){
+        if(super.getPlayerTwo().isHasAdvantage()){
             return this.getPlayerOne().getPlayerName()+ " : " + this.getPlayerOne().getPlayerScore()
                     +" - ADVANTAGE : " + this.getPlayerTwo().getPlayerName();
 
@@ -120,8 +94,8 @@ public class Game implements GameService {
     public void resetGame(){
         this.getPlayerOne().setScoreGame(0);
         this.getPlayerTwo().setScoreGame(0);
-        this.haveWinner = false;
-        winner = null;
+        this.setHaveWinner(false);
+        super.setWinner(null);
     }
 
 
