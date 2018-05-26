@@ -1,45 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dd86805-8b94-44b1-b9c5-e7ab15540477" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/GameService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/PlayerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/ScoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/SetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/GameServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/PlayerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/ScoreServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/interfaces/SetServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaces/GameService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaces/PlayerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaces/ScoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/interfaces/SetService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/models/Set.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/interfaces/GameServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/interfaces/PlayerServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/interfaces/ScoreServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/interfaces/SetServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="tennis_kata" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/globaltest/MainTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/SetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Set.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/models/Set.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2558#2559#0" expanded="true" />
+                <element signature="e#2595#2596#0" expanded="true" />
+                <element signature="e#2645#2646#0" expanded="true" />
+                <element signature="e#2682#2683#0" expanded="true" />
+                <element signature="e#2880#2881#0" expanded="true" />
+                <element signature="e#2913#2914#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>here</find>
+      <find>.getWinn</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/services/PlayerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/services/ScoreService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/GameServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Match.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/PlayerServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/ScoreServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/interfaces/SetServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/PlayerService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/SetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/ScoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Score.java" />
+        <option value="$PROJECT_DIR$/src/main/java/interfaces/GameService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/models/Set.java" />
+        <option value="$PROJECT_DIR$/src/test/java/globaltest/MainTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="713" />
-    <option name="width" value="660" />
-    <option name="height" value="775" />
+    <option name="x" value="84" />
+    <option name="y" value="20" />
+    <option name="width" value="1272" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tennis_kata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tennis_kata" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.GameServiceTest.getWinner">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="interfaces" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MainTest.testWintMatchTieBreak">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GameServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tennis_kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="interfaces" />
-      <option name="MAIN_CLASS_NAME" value="interfaces.GameServiceTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="GameServiceTest.getWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tennis_kata" />
@@ -55,6 +274,52 @@
       <option name="MAIN_CLASS_NAME" value="interfaces.GameServiceTest" />
       <option name="METHOD_NAME" value="getWinner" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MainTest.testWintMatchTieBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tennis_kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="globaltest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="globaltest" />
+      <option name="MAIN_CLASS_NAME" value="globaltest.MainTest" />
+      <option name="METHOD_NAME" value="testWintMatchTieBreak" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PlayerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tennis_kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="interfaces" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.PlayerServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -87,7 +352,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ScoreServiceTest.score" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SetServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tennis_kata" />
       <extension name="coverage">
         <pattern>
@@ -98,32 +363,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="interfaces" />
-      <option name="MAIN_CLASS_NAME" value="interfaces.ScoreServiceTest" />
-      <option name="METHOD_NAME" value="score" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ScoreServiceTest.showScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tennis_kata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="interfaces" />
-      <option name="MAIN_CLASS_NAME" value="interfaces.ScoreServiceTest" />
-      <option name="METHOD_NAME" value="showScore" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="interfaces.SetServiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -172,21 +414,392 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ScoreServiceTest.showScore" />
-      <item itemvalue="JUnit.ScoreServiceTest.score" />
+      <item itemvalue="JUnit.MainTest.testWintMatchTieBreak" />
       <item itemvalue="JUnit.ScoreServiceTest" />
-      <item itemvalue="JUnit.GameServiceTest" />
+      <item itemvalue="JUnit.PlayerServiceTest" />
       <item itemvalue="JUnit.GameServiceTest.getWinner" />
+      <item itemvalue="JUnit.SetServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.testWintMatchTieBreak" />
+        <item itemvalue="JUnit.SetServiceTest" />
         <item itemvalue="JUnit.GameServiceTest.getWinner" />
-        <item itemvalue="JUnit.GameServiceTest" />
+        <item itemvalue="JUnit.PlayerServiceTest" />
         <item itemvalue="JUnit.ScoreServiceTest" />
-        <item itemvalue="JUnit.ScoreServiceTest.score" />
-        <item itemvalue="JUnit.ScoreServiceTest.showScore" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dd86805-8b94-44b1-b9c5-e7ab15540477" name="Default" comment="" />
+      <created>1527199496547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527199496547</updated>
+      <workItem from="1527199502315" duration="5952000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PlayerServiceTest - 2018.05.26 at 12h 47m 37s.xml">
+      <configuration name="PlayerServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameServiceTest_getWinner - 2018.05.26 at 12h 47m 41s.xml">
+      <configuration name="GameServiceTest.getWinner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetServiceTest - 2018.05.26 at 12h 47m 49s.xml">
+      <configuration name="SetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetServiceTest - 2018.05.26 at 12h 49m 16s.xml">
+      <configuration name="SetServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testWintMatchTieBreak - 2018.05.26 at 12h 49m 20s.xml">
+      <configuration name="MainTest.testWintMatchTieBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testWintMatchTieBreak - 2018.05.26 at 12h 49m 37s.xml">
+      <configuration name="MainTest.testWintMatchTieBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testWintMatchTieBreak - 2018.05.26 at 12h 50m 01s.xml">
+      <configuration name="MainTest.testWintMatchTieBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testWintMatchTieBreak - 2018.05.26 at 12h 50m 23s.xml">
+      <configuration name="MainTest.testWintMatchTieBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testWintMatchTieBreak - 2018.05.26 at 12h 51m 00s.xml">
+      <configuration name="MainTest.testWintMatchTieBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testWintMatchTieBreak - 2018.05.26 at 12h 51m 25s.xml">
+      <configuration name="MainTest.testWintMatchTieBreak" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21027000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="-8" width="1308" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972136" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33281735" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32972136" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49884528" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" sideWeight="0.5011547" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32352942" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972136" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32972136" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32972136" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/PlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/PlayerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/ScoreServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1286">
+          <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ScoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/GameServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Match.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/PlayerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/GameService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/ScoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/SetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/models/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="41" column="45" lean-forward="true" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2595#2596#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2682#2683#0" expanded="true" />
+            <element signature="e#2880#2881#0" expanded="true" />
+            <element signature="e#2913#2914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/ScoreServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/PlayerServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/GameServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="47" column="35" lean-forward="true" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/interfaces/SetServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/globaltest/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
